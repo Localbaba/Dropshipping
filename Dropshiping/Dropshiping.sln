@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropshiping", "Dropshiping.csproj", "{E5597A4E-063F-4CC6-81C3-5AD7160A9312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dropshiping", "Dropshiping.csproj", "{E5597A4E-063F-4CC6-81C3-5AD7160A9312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropShipping.data", "..\DropShipping.data\DropShipping.data.csproj", "{D9108D5F-D4CE-45D2-B1A5-C1707908B9F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropShipping.data", "..\DropShipping.data\DropShipping.data.csproj", "{D9108D5F-D4CE-45D2-B1A5-C1707908B9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropShipping.Services", "..\DropShipping.Services\DropShipping.Services.csproj", "{AEF6859B-13AE-4D4A-86B0-18223808B3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropShipping.Services", "..\DropShipping.Services\DropShipping.Services.csproj", "{AEF6859B-13AE-4D4A-86B0-18223808B3AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropShipping.External", "..\DropShipping.External\DropShipping.External.csproj", "{D61EF13F-B3FA-46A4-BD05-979420F8E509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropShipping.External", "..\DropShipping.External\DropShipping.External.csproj", "{D61EF13F-B3FA-46A4-BD05-979420F8E509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropShipping.Config", "..\DropShipping.Config\DropShipping.Config.csproj", "{8B41C5CE-F6F9-4CD0-A2B7-8E782C47E591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropShipping.Config", "..\DropShipping.Config\DropShipping.Config.csproj", "{8B41C5CE-F6F9-4CD0-A2B7-8E782C47E591}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopifySharp", "..\ShopifySharp\ShopifySharp.csproj", "{00FD4494-A88B-4B7E-AA63-987725653E98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8B41C5CE-F6F9-4CD0-A2B7-8E782C47E591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B41C5CE-F6F9-4CD0-A2B7-8E782C47E591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B41C5CE-F6F9-4CD0-A2B7-8E782C47E591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FD4494-A88B-4B7E-AA63-987725653E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FD4494-A88B-4B7E-AA63-987725653E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FD4494-A88B-4B7E-AA63-987725653E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FD4494-A88B-4B7E-AA63-987725653E98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
